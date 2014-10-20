@@ -1,0 +1,33 @@
+public class NimGame
+{
+  Scanner kb = new Scanner(System.in); 
+  
+  private int player; 
+  private int take; 
+  private int total = 12; 
+  private int comptake = 0; 
+  
+  take = kb.nextline(); 
+  total -= take; 
+  
+  if (total = 11 || 8 || 5 || 2)
+  {
+    comptake = 1;
+    total -= comptake;
+  }
+   if (total = 12 || 9 || 6 || 3)
+  {
+    comptake = 2;
+    total -= comptake;
+  }
+    if (total = 4 || 7 || 10)
+  {
+    comptake = 1;
+    total -= comptake;
+  }
+  
+  
+  
+
+  
+  
